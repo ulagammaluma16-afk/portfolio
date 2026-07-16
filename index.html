@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ULAGAMMAL U | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#102542;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#00e6b8;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:20px;
+font-weight:bold;
+transition:.3s;
+}
+
+nav a:hover{
+color:#00e6b8;
+}
+
+section{
+padding:70px 8%;
+}
+
+.home{
+text-align:center;
+padding-top:120px;
+}
+
+.home h1{
+font-size:55px;
+color:#00e6b8;
+}
+
+.home h3{
+margin:15px 0;
+font-size:28px;
+}
+
+.home p{
+max-width:700px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+}
+
+.btn{
+display:inline-block;
+margin:15px;
+padding:12px 25px;
+background:#00e6b8;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+border-radius:30px;
+transition:.3s;
+}
+
+.btn:hover{
+background:white;
+}
+
+h2{
+text-align:center;
+color:#00e6b8;
+margin-bottom:30px;
+font-size:35px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+padding:25px;
+border-radius:15px;
+margin-top:20px;
+backdrop-filter:blur(10px);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.box{
+background:#1b3b5f;
+padding:20px;
+border-radius:15px;
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-8px);
+background:#28527a;
+}
+
+ul{
+padding-left:20px;
+}
+
+li{
+margin:10px 0;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+display:block;
+color:#00e6b8;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#102542;
+margin-top:40px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+.home h1{
+font-size:40px;
+}
+
+.home h3{
+font-size:22px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">ULAGAMMAL U</div>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#achievement">Achievements</a>
+<a href="#certificate">Certificates</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+<section class="home">
+
+<h1>ULAGAMMAL U</h1>
+
+<h3>ECE Student | Software & Hardware Enthusiast</h3>
+
+<p>
+Passionate about software and hardware technologies.
+I enjoy learning new technologies, building innovative projects,
+and improving my technical skills.
+</p>
+
+<a href="#about" class="btn">About Me</a>
+<a href="#projects" class="btn">Projects</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+Hi, I'm <b>ULAGAMMAL U</b>, an Electronics and Communication Engineering (ECE) student passionate about software and hardware. I enjoy learning new technologies, building innovative projects, and improving my technical skills.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="grid">
+
+<div class="box">
+<h3>Programming</h3>
+<ul>
+<li>C</li>
+<li>Python</li>
+<li>C++</li>
+</ul>
+</div>
+
+<div class="box">
+<h3>Technical</h3>
+<ul>
+<li>IoT</li>
+<li>Embedded Systems</li>
+<li>Problem Solving</li>
+<li>Teamwork</li>
+</ul>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="box">
+<h3>Temperature & Humidity Monitoring System</h3>
+<p>Hardware project for monitoring environmental conditions.</p>
+</div>
+
+<div class="box">
+<h3>AI Government-Based Mapping</h3>
+<p>Participated in an ideathon focused on AI solutions for government mapping.</p>
+</div>
+
+<div class="box">
+<h3>Mood-Based Study Dashboard</h3>
+<p>Responsive dashboard developed using HTML and CSS.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="achievement">
+
+<h2>Achievements</h2>
+
+<div class="card">
+
+<ul>
+
+<li>🏆 Secured Third Prize for a hardware project based on Temperature and Humidity Sensing.</li>
+
+<li>💡 Participated in AI Government-Based Mapping Ideathon.</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="certificate">
+
+<h2>Certificates</h2>
+
+<div class="card">
+
+<ul>
+
+<li>🥉 Third Prize Certificate - Temperature & Humidity Hardware Project</li>
+
+<li>📜 AI Government-Based Mapping Ideathon Participation Certificate</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="card contact">
+
+<a href="mailto:yourmail@gmail.com">📧 yourmail@gmail.com</a>
+
+<a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">💼 LinkedIn Profile</a>
+
+<a href="https://github.com/your-github" target="_blank">💻 GitHub Profile</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 ULAGAMMAL U | Portfolio</p>
+
+</footer>
+
+</body>
+</html>
